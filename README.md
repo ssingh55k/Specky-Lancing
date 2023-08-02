@@ -4,9 +4,9 @@
 Specky-Lancing is a robust website designed to facilitate collaboration and project management for coding applications or websites. It would provide a platform for developers, designers, and clients to come together, form groups, collaborate on projects, and offer freelance services for project requests.
 
 Some Key Features :
--Users can register and create an account within the website.
--Users can create new projects within the website, defining project details such as -name, description, objectives, and required skills.
--Project owners can invite other users to join their projects, forming collaborative groups.
+  1)Users can register and create an account within the website.
+  2)Users can create new projects within the website, defining project details such as -name, description, objectives, and required skills.
+  3)Project owners can invite other users to join their projects, forming collaborative groups.
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>, and setup <code><a href="https://www.mongodb.com/try/download/community">mongoDB</a></code> on your dev
 
