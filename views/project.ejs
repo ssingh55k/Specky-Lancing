@@ -1,0 +1,62 @@
+<%- include("partials/header"); -%>
+
+    <div class="container overflow-y-auto">
+        <div class="row gx-4">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-10 text-black pt-5 pb-5 px-5" style="background-color: #c8c7c7;">
+
+                <div class="col-12 mb-3 px-3 ">
+                    <div style="text-align: center;">
+                        <input type="radio" class="btn-check" name="options-base" id="id-projects" autocomplete="off"
+                            checked>
+                        <label class="btn col-5" for="id-projects">Project Name</label>
+                    </div>
+                    <form action="/secret/<%= id %>" method="POST" enctype="multipart/form-data">
+                        <div class="input-group mb-3 pt-3 pb-3">
+                            <input type="file" name="file" class="form-control" id="inputGroupFile01" required>
+                            <button type="submit" class="btn btn-primary">Upload Files (without spaces)</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="card-body">
+                    <div class="pt-3 text-black" style="list-style-type: none;">
+                        <ul class="list-group list-group-flush">
+                            <% files.forEach(element=> { %>
+                                <div class="row">
+                                    <div class="col-10">
+                                        <li class="list-group-item" style="border-radius: 5px;">
+                                            <%= element %>
+                                        </li>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="nav-item dropdown" style="background-color: rgb(228, 228, 228); height: 40px;
+                                        border-radius: 5px;">
+                                            <a class="nav-link dropdown-toggle pt-1" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false"
+                                                style="text-align: center;">
+                                                Options
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-lg-end">
+                                                <li><a class="dropdown-item"
+                                                        href="/secret/<%= id %>/download/<%= element %>">Download</a>
+                                                </li>
+                                                <li><a class="dropdown-item"
+                                                        href="/secret/<%= id %>/delete/<%= element %>">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <% }); %>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <%- include("partials/footer"); -%>

@@ -1,0 +1,44 @@
+<%- include("partials/header"); -%>
+
+    <body class="desktop overflow-y-auto">
+
+        <div class="container overflow-y-auto pb-5">
+            <div class="row gx-4">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-black pt-5 px-5">
+                    <div style="text-align: center; font-size: 20px;" class="pb-4">
+                        <b>Project Request Information</b>
+                    </div>
+                    <form action="/project_req" method="POST">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Project Name</span>
+                            <input type="text" class="form-control" placeholder="User's Project Name" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+    
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Technologies</span>
+                            <input type="text" class="form-control" placeholder="Project Technologies" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Stipend</span>
+                            <input type="text" class="form-control" placeholder="Project Completion Stipend" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+    
+                        <div class="input-group">
+                            <span class="input-group-text">Project Information</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+    
+                        <div class="fbtn pt-3" style="text-align: center;">
+                            <button type="submit" class="btn btn-primary">Submit Request</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <%- include("partials/footer"); -%>

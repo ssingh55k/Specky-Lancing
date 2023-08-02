@@ -1,0 +1,317 @@
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 131.94rem;
+  height: 146.44rem;
+  object-fit: cover;
+}
+.join-specky-lancing-today {
+  position: absolute;
+  width: 74.58%;
+  top: 88.01%;
+  left: 12.71%;
+  line-height: 3.19rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.pngwing-1-icon {
+  position: absolute;
+  top: 0;
+  left: 34.5rem;
+  width: 32.06rem;
+  height: 29.19rem;
+  object-fit: cover;
+}
+.how-we-can {
+  position: absolute;
+  top: 4.19rem;
+  left: 0;
+  font-size: var(--h1-size);
+  line-height: 100%;
+  color: #eb6e39;
+}
+.enhance-productivity,
+.streamline-your-project {
+  position: absolute;
+  top: 8.81rem;
+  left: 0;
+  line-height: 130%;
+}
+.streamline-your-project {
+  top: 10.63rem;
+  font-size: var(--body2-size);
+  color: var(--bodytext);
+  display: inline-block;
+  width: 29.31rem;
+}
+.browse-through-project,
+.find-the-right {
+  position: absolute;
+  top: 14.56rem;
+  left: 0;
+  line-height: 130%;
+}
+.browse-through-project {
+  top: 16.38rem;
+  font-size: var(--body2-size);
+  color: var(--bodytext);
+  display: inline-block;
+  width: 29.31rem;
+  height: 3.94rem;
+}
+.collaborative-environment,
+.engage-in-real-time {
+  position: absolute;
+  top: 20.31rem;
+  left: 0;
+  line-height: 130%;
+}
+.engage-in-real-time {
+  top: 22.13rem;
+  font-size: var(--body2-size);
+  color: var(--bodytext);
+  display: inline-block;
+  width: 29.31rem;
+}
+.panel3 {
+  position: absolute;
+  top: 98.13rem;
+  left: 11.69rem;
+  width: 66.56rem;
+  height: 29.19rem;
+  font-size: var(--font-size-3xl);
+  color: var(--color-khaki-100);
+}
+.ccb-blog-header-stickies-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31rem;
+  height: 26.44rem;
+  object-fit: cover;
+}
+.connect-developers-and {
+  top: 1.56rem;
+  color: var(--color-palegreen);
+}
+.collaborate-and-work,
+.connect-developers-and,
+.project-management-made {
+  position: absolute;
+  left: 33.75rem;
+  line-height: 130%;
+}
+.collaborate-and-work {
+  top: 4.06rem;
+  font-size: var(--body2-size);
+  display: inline-block;
+  width: 32.81rem;
+}
+.project-management-made {
+  top: 10.56rem;
+  color: var(--color-palegreen);
+}
+.simplify-project-management {
+  top: 13.25rem;
+  font-size: var(--body2-size);
+  display: inline-block;
+  width: 32.81rem;
+  height: 3.94rem;
+}
+.freelance-marketplace,
+.get-access-to,
+.simplify-project-management {
+  position: absolute;
+  left: 33.75rem;
+  line-height: 130%;
+}
+.freelance-marketplace {
+  top: 19.25rem;
+  color: #cff385;
+}
+.get-access-to {
+  top: 21.81rem;
+  font-size: var(--body2-size);
+  display: inline-block;
+  width: 32.81rem;
+}
+.panel2 {
+  position: absolute;
+  top: 61.31rem;
+  left: 11.69rem;
+  width: 66.56rem;
+  height: 26.44rem;
+  font-size: var(--h2-size);
+  color: var(--bodytext);
+}
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 33.75rem;
+  width: 32.81rem;
+  height: 28.81rem;
+  object-fit: cover;
+}
+.a-cutting-edge-platform {
+  margin: 0;
+}
+.a-cutting-edge-platform-container {
+  position: absolute;
+  height: 32.54%;
+  width: 45.54%;
+  top: 34.71%;
+  left: 0;
+  line-height: 130%;
+  display: inline-block;
+}
+.welcome-to-specky-lancing {
+  position: absolute;
+  width: 45.54%;
+  top: 11.5%;
+  left: 0;
+  font-size: var(--h1-size);
+  line-height: 100%;
+  display: inline-block;
+  color: #a3e9ff;
+}
+.getting-started {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 1.72rem;
+  font-weight: 600;
+  font-family: var(--h1);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.25rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+}
+.button1,
+.hero {
+  position: absolute;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #1f9e9e;
+  top: 23.81rem;
+  left: 9.56rem;
+  border-radius: 25px;
+  width: 11.25rem;
+  height: 3.31rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  top: 22.13rem;
+  left: 11.75rem;
+  width: 66.56rem;
+  height: 28.81rem;
+  font-size: 1.19rem;
+  color: #d5f3e8;
+}
+.browse-projects,
+.project-request {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  line-height: 1.72rem;
+  font-family: var(--h1);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.project-request {
+  left: 22.5rem;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  width: 9.44rem;
+}
+.browse-projects {
+  left: 33.88rem;
+  width: 9.81rem;
+}
+.about-us,
+.browse-projects,
+.create-project {
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+}
+.create-project {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 45.63rem;
+  line-height: 1.72rem;
+  font-family: var(--h1);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 8.75rem;
+}
+.about-us {
+  left: 56.31rem;
+  width: 5.25rem;
+}
+.about-us,
+.login,
+.specky-lancing {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  line-height: 1.72rem;
+  font-family: var(--h1);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.login {
+  left: 63.5rem;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  width: 3.06rem;
+}
+.specky-lancing {
+  left: 0;
+  font-size: var(--h2-size);
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 14.38rem;
+}
+.navbar {
+  margin: 0;
+  position: absolute;
+  top: 9.56rem;
+  left: 11.75rem;
+  width: 66.56rem;
+  height: 1.75rem;
+}
+.desktop {
+  position: relative;
+  background-color: #2d2d64;
+  width: 100%;
+  height: 156.44rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 2.38rem;
+  color: #e4e8d8;
+  font-family: var(--h1);
+}

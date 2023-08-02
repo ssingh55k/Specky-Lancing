@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar" id="NavBar">
+      <div><a href="/"><button class="specky-lancing" id="Home">SPECKY-LANCING</button></a></div>
+      <div><a href="/project_req"><button class="project-request">project request</button></a></div>
+      <div><a href="/browse_project"><button class="browse-projects">browse projects</button></a></div>
+      <div><a href="/create_project"><button class="create-project">create project</button></a></div>
+      <div><a href="/contact_us"><button class="contact-us">contact us</button></a></div>
+      <% if(req.isAuthenticated()){ %>
+        <div><a href="/login"><button class="login">profile</button></a></div>
+        <% } else{ %>
+      <div><a href="/login"><button class="login">login</button></a></div>
+      <% } %>
+    </nav>
+  </header>
+  <main class="desktop">
+    <img class="bg-img" alt="" src="/images/rectangle@2x.png" />
+
+    <div class="home-content">
+      <div class="hero">
+        <div class="left">
+          <b class="heading1">Welcome to Specky-Lancing</b>
+          <div class="hero-text">
+            <p class="text">
+              A cutting-edge platform designed to revolutionize project
+              collaboration and freelance opportunities for coding applications
+              and websites.
+            </p>
+            <p class="text">
+              Whether you're a developer, designer, or client seeking to bring
+              your ideas to life, we've got you covered.
+            </p>
+          </div>
+          <div class="btnpos">
+            
+              <button type="submit" href="/register" class="herobtn">Getting Started Now!</button>
+            
+          </div>
+
+
+        </div>
+
+        <div class="right">
+          <img class="hero-img" alt="" src="/images/pngitem-4561067-1@2x.png" />
+        </div>
+      </div>
+
+      <div class="panel2">
+        <div class="left">
+          <img class="panel2img" alt="" src="/images/ccbblogheaderstickies-1@2x.png" />
+        </div>
+
+        <div class="right">
+          <b class="p2head">Connect Developers and Designers </b>
+          <div class="p2text">
+            Collaborate and work together in groups to create innovative projects
+            and enhance your skills through teamwork and knowledge sharing.
+          </div>
+          <b class="p2head">Project Management Made Easy</b>
+          <div class="p2text">
+            Simplify project management with intuitive tools, allowing you to
+            assign tasks, set deadlines, and track progress effortlessly.
+          </div>
+          <b class="p2head">Freelance Marketplace</b>
+          <div class="p2text">
+            Get access to a diverse pool of talented freelancers who can help you
+            bring your project ideas to reality. Hire skilled professionals based
+            on their expertise and reviews.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel3">
+        <div class="left">
+          <b class="head2">How We Can Help You</b>
+          <b class="p3head">Enhance Productivity</b>
+          <div class="p3text">
+            Streamline your project workflow, effectively communicate with your
+            team, and achieve project milestones efficiently.
+          </div>
+          <b class="p3head">Find the Right Talent</b>
+          <div class="p3text">
+            Browse through project requests and connect with freelancers who
+            possess the skills and experience you need.
+          </div>
+          <b class="p3head">Collaborative Environment</b>
+          <div class="p3text">
+            Engage in real-time discussions, share files, and leverage version
+            control systems to foster seamless collaboration.
+          </div>
+        </div>
+
+        <div class="right">
+          <img class="panel3img" alt="" src="/images/pngwing-1@2x.png" />
+        </div>
+      </div>
+
+      <div class="bottomtext">
+        <p>Join Specky-Lancing today and unlock the potential of collaborative
+          coding projects and freelance opportunities!</p>
+      </div>
+      <div class="footer">
+
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

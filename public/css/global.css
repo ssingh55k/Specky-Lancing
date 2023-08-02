@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --h1: Outfit;
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --h2-size: 1.56rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-xl: 1.25rem;
+  --h1-size: 2.31rem;
+  --body2-size: 1.13rem;
+  --font-size-41xl: 3.75rem;
+  --font-size-base: 1rem;
+  --font-size-xs: 0.75rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --bodytext: #f7ffee;
+  --color-khaki-100: #ffd27b;
+  --color-palegreen: #d8ff86;
+  --color-black: #000;
+}

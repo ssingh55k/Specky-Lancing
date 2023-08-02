@@ -1,0 +1,53 @@
+<%- include("partials/header"); -%>
+
+    <div class="container overflow-y-auto pb-5">
+        <div class="row">
+            <div class="col-lg-4">
+            </div>
+            <div class="col-lg-4 text-black pt-5" style="text-align: center;">
+                <div class="card-img">
+                    <% if(profile) {%>
+                        <img class="pfp " src="<%= path %>">
+                        <% }else{ %>
+                            <img class="pfp " src="/images/pfp-auto.png">
+                            <% } %>
+                </div>
+
+                <form action="/profile" method="POST" enctype="multipart/form-data">
+                    <div class="input-group mb-3 pt-3">
+                        <label class="input-group"> Profile Picture</label>
+                        <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                        <input type="file" name="file" class="form-control" id="inputGroupFile01" required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Full Name</span>
+                        <input type="text" class="form-control" placeholder="User's Full Name" aria-label="Username"
+                            aria-describedby="basic-addon1" name="name" required>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Location</span>
+                        <input type="text" class="form-control" placeholder="User's Location" aria-label="Username"
+                            aria-describedby="basic-addon1" name="location" required>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Contact Number</span>
+                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1"
+                            placeholder="Number" name="number" required>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-text">Bio</span>
+                        <textarea class="form-control" aria-label="With textarea" name="bio"></textarea>
+                    </div>
+
+                    <div class="fbtn pt-3" style="text-align: center;">
+                        <button type="submit" class="btn btn-primary">Update Profile</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <%- include("partials/footer"); -%>
