@@ -253,7 +253,6 @@ app.get("/secret/:projectName/download/:fileName", function (req, res) {
     res.download(fpath);
     const nurl = path.dirname(req.url);
     const n2 = path.dirname(nurl);
-    res.redirect(n2);
 });
 
 
