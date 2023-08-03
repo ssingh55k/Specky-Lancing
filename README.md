@@ -8,7 +8,7 @@ Some Key Features:
   2) Users can create new projects within the website, defining project details such as -name, description, objectives, and required skills.
   3) Project owners can invite other users to join their projects, forming collaborative groups.
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>, and setup <code><a href="https://www.mongodb.com/try/download/community">mongoDB</a></code> on your dev
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>, and setup <code><a href="https://www.mongodb.com/try/download/community">mongoDB</a></code> on your device.
 
   To preview and run the project on your device:
   1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
